@@ -32,6 +32,7 @@ public class ActivityPermission extends AppCompatActivity {
         });
     }
 
+    //Обработка результата
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (requestCode == PERMISSION_REQUEST_LOCATION) {
@@ -47,6 +48,7 @@ public class ActivityPermission extends AppCompatActivity {
         }
     }
 
+    //Проверяем наличие разрешения
     private void getPermission() {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
                 == PackageManager.PERMISSION_GRANTED) {
@@ -60,6 +62,7 @@ public class ActivityPermission extends AppCompatActivity {
         }
     }
 
+    //Запрашиваем разрешение
     private void requestPermission() {
         if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                 Manifest.permission.ACCESS_FINE_LOCATION)) {

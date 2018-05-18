@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerIndicator">
+        <attr name="piv_selected_color" format="color"/>
+        <attr name="piv_unselected_color" format="color"/>
+        <attr name="piv_radius" format="dimension"/>
+        <attr name="piv_dot_padding" format="dimension"/>
+        <attr name="piv_sides_padding" format="dimension"/>
+    </declare-styleable>
+</resources>

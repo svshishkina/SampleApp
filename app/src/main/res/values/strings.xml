@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SampleApplication</string>
+
+    <string name="page_number">Page: %1$d</string>
+    <string name="full_name">%1$s %2$s</string>
+
+</resources>
